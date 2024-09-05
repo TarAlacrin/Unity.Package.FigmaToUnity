@@ -87,7 +87,9 @@ namespace Figma
             ELLIPSE,
             REGULAR_POLYGON,
             RECTANGLE,
-            TEXT
+            TEXT,
+            CONNECTOR,
+            SECTION
         }
 
         public enum ComponentPropertyType { BOOLEAN, TEXT, INSTANCE_SWAP, VARIANT }

@@ -183,6 +183,8 @@ namespace Figma
                     NodeType.REGULAR_POLYGON => obj.ToObject<RegularPolygonNode>(serializer),
                     NodeType.RECTANGLE => obj.ToObject<RectangleNode>(serializer),
                     NodeType.TEXT => obj.ToObject<TextNode>(serializer),
+                    NodeType.CONNECTOR => obj.ToObject<ConnectorNode>(serializer),
+                    NodeType.SECTION => obj.ToObject<SectionNode>(serializer),
                     _ => throw new ArgumentOutOfRangeException()
                 };
             }

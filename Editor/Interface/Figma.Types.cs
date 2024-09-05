@@ -543,6 +543,14 @@ namespace Figma
             public object componentPropertyDefinitions;
         }
 
+        public class ConnectorNode : DefaultFrameNode
+        {
+        }
+
+        public class SectionNode : DefaultFrameNode
+        {
+        }
+
         public class InstanceNode : DefaultFrameNode
         {
             public string componentId;
